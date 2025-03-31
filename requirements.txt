@@ -1,0 +1,30 @@
+# Core dependencies
+Flask==2.2.3
+Werkzeug==2.2.3
+
+# PDF processing
+pdfminer.six==20221105
+
+# Date and time handling
+python-dateutil==2.8.2
+
+# NLP and text processing
+spacy==3.5.1
+nltk==3.8.1
+
+# Google Calendar integration
+google-api-python-client==2.81.0
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==1.0.0
+
+# iCalendar file generation
+ics==0.7.2
+
+# Testing and development
+pytest==7.3.1
+black==23.3.0
+flake8==6.0.0
+
+# Install spaCy model
+# Run this after installing requirements:
+# python -m spacy download en_core_web_sm

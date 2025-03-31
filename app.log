@@ -1,0 +1,59 @@
+2025-03-30 19:15:54,183 - root - INFO - Starting Syllabus Calendar Generator v0.1.0
+2025-03-30 19:15:54,199 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.23.44.247:5000
+2025-03-30 19:15:54,199 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-30 19:16:06,583 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-03-30 19:16:06,623 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-03-30 19:16:06,693 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 19:16:06] "POST /api/upload HTTP/1.1" 200 -
+2025-03-30 19:16:08,723 - calendar_integration - ERROR - Authentication error: 'str' object has no attribute 'keys'
+2025-03-30 19:16:08,723 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 19:16:08] "[31m[1mGET /api/calendars/google HTTP/1.1[0m" 401 -
+2025-03-30 19:16:10,767 - calendar_integration - ERROR - Authentication error: 'str' object has no attribute 'keys'
+2025-03-30 19:16:10,767 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 19:16:10] "[31m[1mPOST /api/events/google HTTP/1.1[0m" 401 -
+2025-03-30 19:19:56,931 - root - INFO - Starting Syllabus Calendar Generator v0.1.0
+2025-03-30 19:19:56,946 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.23.44.247:5000
+2025-03-30 19:19:56,946 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-30 19:20:10,620 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-03-30 19:20:10,658 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-03-30 19:20:10,726 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 19:20:10] "POST /api/upload HTTP/1.1" 200 -
+2025-03-30 19:20:13,241 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 19:20:13] "GET /api/calendars/google HTTP/1.1" 200 -
+2025-03-30 19:20:15,798 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=bjMycmRsNW1kZmJwYjI5bmxkdDQ1b3RlMGsgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:16,256 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=bjVvbWpvdTI0dm1rcXJwMHQ5dmpha3B0ajggYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:16,628 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=cDFjNzhjaHY3ZHBhYmkzcnRtZHQxa2c0ZmsgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:16,995 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=aGg5OWE3MGw2M2RxZm9icGRsYjZwaW5naGcgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:17,429 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=cTRka2x2cDJhYjdpMzQzbWdjZWt0Z2dvcmMgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:17,865 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=MGdybnV2bTd2aXNyY21sbnRsa2VxZ3RncTAgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:18,247 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=M2QzbjhpYzNpbjFqYmllMWtmdW9zdjJxYTAgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:18,643 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=ZmxlZmNnY3ZhcjJpbmlpanJxcmZpNzdrdWcgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:19,069 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=bWp1YWdyczk0dTkwMHZtbzQ2YmJ0dm9rMjQgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:19,470 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=YTFkN3RoZTkzamVmbWowYTNwdmltdWtpYWMgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:19,824 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=MTZlMmkzMGxoZHB1N3E2Y2NubWtnczgzMjQgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:20,248 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=cGkwNTU4bThicGl1cmdtdHQ0cDU3MXYxcWMgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:20,681 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=M3M3aTZtaGMwbDU2ZGozcHM5a2NvY2dubjQgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:21,121 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=NjNyYTJuNHBxc3YzODRic29lMWxuYW9ra2sgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:21,541 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=cGJxbGVsY2hyNHB2NHBtNjdjNWpkbWZ1czggYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:21,903 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=dTVxb2tjNGw0ZnZocGZiMHNhcThxa2c1cGsgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:22,285 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=bmJqbnFyM2Nvc3VuaWE3dXYycW9zdm9hYTggYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:22,732 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=dnFsNWk1cHN1anR2dDNqaDJrdTVhcnFjZ2cgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:23,205 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=N21xMjQxcnB0MmE4YzFnMDhibGJjNnQ5aDggYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:23,582 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=MzZ0NDg2OXRxNHZrYmo4NzQwOGJ0aXIzNTQgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:24,004 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=Z3JyY2ZpYXJybDl1YTRubmljZmg0ZXFrcDQgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:24,836 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=Y2ZvNnBub281N2c4MDI0czQwMWpwdDdsMzQgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:25,272 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=bmt1bzhmc20wMHBhODU4cGxoM2JwamVuYWcgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:25,660 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=aW52dm5xdDM1YTc1aWQzcmYzcXE4bWtjcWMgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:26,022 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=ODc4cGE4NmpsYm12c3VscGs1aHYyMXFoYXMgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:26,423 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=b2xhdmZ2Z2d2cnFnOWJ2cWdlMzl2NGVwMjQgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:26,823 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=OTducjRzdGg5b3NwY29yY2FyNTZ0YWZucDQgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:27,327 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=ZjV0OHNuZWJma3Fya3BrZmZhOWo1bTU4dTAgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:27,706 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=MTA2Z2Q5aGVhN3AxNnBlbzdmNTRhYTVtNDQgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:28,104 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=MWhqdGRtcWFhbDdiZTFwaWg3Y2l0cG42dmsgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:28,503 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=amJwZmc2N2J0dGdqN3VybmI5amJpdGFrNjggYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:28,921 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=a2h2cWZmM2U1OTE4MHQ3bzFjdGhlaXFicmsgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:29,270 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=ODRuZmU5N3BhZGhyNG5ibzY4MGllM3BjamMgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:29,651 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=amY4YWZqYTM5bzJyaGl0cmwzMDJtaWV1bzggYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:30,021 - calendar_integration - INFO - Event created: https://www.google.com/calendar/event?eid=aml2b2I5cWVmczAzczhocGpkZHVuaDgxdGcgYW44MjMxNkB1c2MuZWR1
+2025-03-30 19:20:30,022 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 19:20:30] "POST /api/events/google HTTP/1.1" 200 -
