@@ -3,6 +3,8 @@ credentials.json
 token.json
 *.key
 *.pem
+*.log
+*.pdf
 
 # Python environment
 __pycache__/
